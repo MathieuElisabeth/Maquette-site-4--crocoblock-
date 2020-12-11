@@ -1,0 +1,286 @@
+footer {
+  padding: 98px 0 70px;
+
+  .footer-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .tools-area {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -20px;
+      margin-right: -20px;
+
+      .tools-column {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0 10px -22px;
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+        position: relative;
+        min-height: 1px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        .tools-column-titre {
+          margin-bottom: 24px;
+          text-transform: none;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 27px;
+          color: #162b40;
+          letter-spacing: 0;
+        }
+
+        ul {
+          list-style: none;
+          margin: 0 0 1.5em;
+          padding-left: 0;
+          padding-right: 0;
+
+          li {
+            padding-left: 0;
+            position: relative;
+            color: #5c6b79;
+
+            a {
+              font-size: 16px;
+              line-height: 27px;
+              position: relative;
+              color: #5c6b79;
+              text-decoration: none;
+
+              &:hover {
+                color: #617be5;
+              }
+
+              &::after {
+                content: "";
+                position: absolute;
+                z-index: -1;
+                left: 0;
+                right: 100%;
+                bottom: -5px;
+                height: 2px;
+                transition-property: left right;
+                transition-duration: 0.3s;
+                transition-timing-function: ease-out;
+                background-color: #617be5;
+              }
+
+              &:hover::after {
+                right: 0;
+              }
+            }
+          }
+        }
+      }
+
+      .large-column {
+        padding-right: 6px;
+        padding-left: 10px;
+      }
+
+      .tools-mail {
+        margin: 10px 0 29px 66px;
+        position: relative;
+        min-height: 1px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+
+        .tools-mail-titre {
+          margin-bottom: 24px;
+          text-transform: none;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 27px;
+          color: #162b40;
+          letter-spacing: 0;
+        }
+
+        .tools-mail-form {
+          position: relative;
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+
+          .mail-form {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: flex-start;
+            align-items: stretch;
+            padding-right: 10px;
+
+            input {
+              margin: 5px 0;
+              border-radius: 4px;
+              background-color: #fff;
+              color: #5c6b79;
+              font-size: 16px;
+              border: 1px solid #e4e8ed;
+              padding: 10px 12px;
+              line-height: 20px;
+              width: 255px;
+            }
+          }
+
+          .mail-btn {
+            padding: 8px 30px;
+            background-color: #34d7a1;
+            color: #fff;
+            border-radius: 4px;
+            flex: 0 1 auto;
+            width: auto;
+            height: 42px;
+            margin-top: 5px;
+
+            &:hover {
+              background-color: #162B40;
+            }
+
+            span {
+              color: white;
+              letter-spacing: 0;
+              font-size: 16px;
+              line-height: 26px;
+              font-weight: 700;
+              text-align: center;
+              cursor: pointer;
+            }
+          }
+
+          .mail-avis {
+            width: auto;
+            margin: 50px auto 0 -34px;
+            position: relative;
+            display: flex;
+
+            p {
+              font-size: 18px;
+              padding-top: 10px;
+            }
+
+            div {
+              width: 100px;
+            }
+          }
+        }
+      }
+    }
+
+    .info-area {
+      font-size: 12px;
+      line-height: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-left: -20px;
+      margin-right: -20px;
+
+      .copyright {
+        flex: 0 0 50%;
+        max-width: 50%;
+        position: relative;
+        min-height: 1px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .made-in {
+        margin-left: -130px;
+        display: flex;
+        align-items: center;
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+        position: relative;
+        min-height: 1px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        span {
+          margin-left: 5px;
+        }
+      }
+
+      .social-list {
+        display: flex;
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+        position: relative;
+        min-height: 1px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        .social-icon {
+          margin-right: 16px;
+          margin-bottom: 0;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.facebook-icon {
+  fill: #62ACEB;
+
+  &:hover {
+    fill: #162B40;
+  }
+}
+
+.youTube-icon {
+  fill: #6291E8;
+
+  &:hover {
+    fill: #162B40;
+  }
+}
+
+.instagram-icon {
+  fill: #61D4EC;
+
+  &:hover {
+    fill: #162B40;
+  }
+}
+
+.twitter-icon {
+  fill: #4FD5CE;
+
+  &:hover {
+    fill: #162B40;
+  }
+}
+
+.linkedin-icon {
+  fill: #37D7A5;
+
+  &:hover {
+    fill: #162B40;
+  }
+}
+
+.github-icon {
+  fill: #34D7A1;
+
+  &:hover {
+    fill: #162B40;
+  }
+}
+
+.pinterest-icon {
+  fill: #2ACD97;
+
+  &:hover {
+    fill: #162B40;
+  }
+}

@@ -1,0 +1,220 @@
+nav {
+  position: absolute;
+  width: 100%;
+  top: auto;
+  padding: 15px 0;
+  background-color: transparent;
+  z-index: 99;
+
+  .nav-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-left-menu {
+      flex: 0 0 38%;
+      max-width: 38%;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: row;
+
+      .nav-underline1,
+      .nav-underline2,
+      .nav-underline3,
+      .nav-underline4,
+      .nav-underline5 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 30px;
+        margin-right: 15px;
+        cursor: pointer;
+
+        span {
+          margin-left: 3px;
+
+          svg {
+            fill: white;
+          }
+        }
+
+        &:hover svg {
+          transform: rotate(-180deg);
+          transition: all 0.3s ease;
+          fill: #34d7a1;
+        }
+
+        &:hover {
+          color: #34d7a1;
+        }
+      }
+    }
+
+    .nav-rigth-menu {
+      flex: 0 0 38%;
+      max-width: 38%;
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: row;
+      padding-right: 20px;
+
+      p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 40px;
+        margin-right: 15px;
+        cursor: pointer;
+
+        span {
+          margin-left: 3px;
+
+          svg {
+            fill: white;
+          }
+        }
+
+        &:hover svg {
+          transform: rotate(-180deg);
+          transition: all 0.3s ease;
+          fill: #34d7a1;
+        }
+
+        &:hover {
+          color: #34d7a1;
+        }
+      }
+
+      .btn-pricing {
+        display: inline-block;
+        background-color: #34d7a1;
+        color: white;
+        padding: 20px 16px;
+        margin-left: 10px;
+        border-radius: 3px;
+        font-weight: 700;
+        font-size: 16px;
+        height: 10px;
+        position: relative;
+        transition: all 0.2s ease;
+        line-height: 0.1;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #617BE5;
+        }
+      }
+    }
+
+    .nav-logo {
+      img {
+        height: auto;
+        max-width: 100%;
+        padding-top: 7px;
+      }
+    }
+  }
+}
+
+.nav-underline1::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 11.9%;
+  right: 100%;
+  bottom: 30%;
+  height: 2px;
+  transition-property: left right;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  background-color: #34d7a1;
+}
+
+.nav-underline1:hover::after {
+  right: 84%;
+}
+
+.nav-underline2::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 18%;
+  right: 100%;
+  bottom: 30%;
+  height: 2px;
+  transition-property: left right;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  background-color: #34d7a1;
+}
+
+.nav-underline2:hover::after {
+  right: 73%;
+}
+
+.nav-underline3::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 29%;
+  right: 100%;
+  bottom: 30%;
+  height: 2px;
+  transition-property: left right;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  background-color: #34d7a1;
+}
+
+.nav-underline3:hover::after {
+  right: 67.7%;
+}
+
+.nav-underline4::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 68.5%;
+  right: 100%;
+  bottom: 30%;
+  height: 2px;
+  transition-property: left right;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  background-color: #34d7a1;
+}
+
+.nav-underline4:hover::after {
+  right: 28%;
+}
+
+.nav-underline5::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 73%;
+  right: 100%;
+  bottom: 30%;
+  height: 2px;
+  transition-property: left right;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  background-color: #34d7a1;
+}
+
+.nav-underline5:hover::after {
+  right: 22%;
+}
+
+.liste-fdp {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+}

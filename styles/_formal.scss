@@ -1,0 +1,188 @@
+.formal {
+  padding: 86px 0 54px;
+  position: relative;
+  max-width: 1180px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+
+  .formal-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    justify-content: center;
+
+    .formal-sous-titre {
+      width: 100%;
+      text-align: center;
+      position: relative;
+      margin: 0 0 11px;
+
+      p {
+        line-height: 1;
+        font-weight: 500;
+        color: #34d7a1;
+      }
+    }
+
+    .formal-titre {
+      width: 100%;
+      text-align: center;
+      position: relative;
+
+      p {
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 47px;
+        letter-spacing: -1px;
+        margin: 0 0 15px;
+      }
+    }
+  }
+}
+
+.formal-list {
+  padding: 0 0 90px;
+  position: relative;
+
+  .formal-list-container {
+    max-width: 1180px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+
+    .formal-sticky {
+      width: 67.797%;
+      display: flex;
+      padding: 10px;
+      position: sticky;
+      top: 20px;
+      min-height: 1px;
+      align-self: flex-start;
+
+      .formal-sticky-text {
+        width: 51%;
+        max-width: 51%;
+        position: relative;
+        padding: 44px 0 0;
+
+        &::after {
+          content: '';
+          position: absolute;
+          display: inline-block;
+          width: 760px;
+          height: 540px;
+          left: 100%;
+          top: 9px;
+          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='761' height='541' viewBox='0 0 761 541' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M544.685 3.08694C481.009 15.4607 432.387 43.7983 376.527 67.0765C362.522 72.9129 319.265 92.1963 261.304 110.762C193.792 132.388 144.452 142.292 80.6626 173.226C16.8736 204.16 -28.2868 276.737 23.6476 363.591C75.5821 450.445 242.111 554.551 414.285 538.489C586.459 522.427 748.471 419.511 760.326 222.602C772.181 25.6928 624.281 -12.3802 544.685 3.08694Z' fill='%23617BE5' fill-opacity='0.08'/%3E%3C/svg%3E");
+        }
+
+        .icon {
+          margin-bottom: 16px;
+
+          span {
+            display: inline-block;
+            line-height: 1;
+          }
+        }
+
+        .text {
+          h3 {
+            font-size: 30px;
+            line-height: 31px;
+            margin: 4px 0 20px;
+            font-weight: bold;
+          }
+
+          p {
+            padding-right: 9%;
+            margin: 0;
+            font-size: 18px;
+            line-height: 30px;
+            color: #5c6b79;
+          }
+        }
+      }
+
+      .formal-sticky-image {
+        width: 49%;
+        max-width: 49%;
+        position: relative;
+        min-height: 474px;
+        text-align: center;
+      }
+    }
+
+    .formal-scroll {
+      width: 32.077%;
+      position: relative;
+      display: flex;
+
+      .formal-scroll-wrap {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        flex-wrap: wrap;
+
+        .firstbox {
+          padding: 176px 0 0;
+        }
+
+        .formal-scroll-column-description {
+          margin-bottom: 0;
+          width: 100%;
+          position: relative;
+
+          .formal-scroll-column-description-container {
+            padding: 0 0 9px;
+            display: flex;
+            flex-direction: row;
+
+            .formal-scroll-icon {
+              margin: 5px 20px 0 0;
+              background-color: #4dfdc3;
+              width: 42px;
+              height: 42px;
+              border-radius: 50%;
+
+              &::before {
+                content: '';
+                position: relative;
+                display: inline-block;
+                vertical-align: middle;
+                top: -2px;
+                width: 42px;
+                height: 42px;
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='18' height='15' viewBox='0 0 18 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17.7527 2.14734C18.1814 1.63492 18.0348 0.848185 17.4517 0.532951L16.6917 0.122074C16.307 -0.0859177 15.8359 -0.024056 15.5151 0.276585L7.1612 8.10509C6.79509 8.44817 6.24159 8.47505 5.84532 8.169L2.72202 5.75674C2.34769 5.46763 1.82952 5.47389 1.46198 5.77195L0.389681 6.64154C-0.0694693 7.01389 -0.132315 7.7025 0.25153 8.15527L5.74641 14.6369C6.15859 15.1231 6.89722 15.1207 7.30631 14.6318L17.7527 2.14734Z' fill='white'/%3E%3C/svg%3E");
+              }
+            }
+
+            .formal-scroll-text {
+              h3 {
+                margin-bottom: 17px;
+                line-height: 28px;
+                font-size: 20px;
+                font-weight: 700;
+                letter-spacing: 0;
+              }
+
+              p {
+                font-size: 18px;
+                line-height: 30px;
+                margin: 0 0 1em;
+                color: #5c6b79;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

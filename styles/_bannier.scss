@@ -1,0 +1,67 @@
+.bannier {
+  position: relative;
+  padding: 61px 0 59px;
+  background: linear-gradient(146.22deg,#5b77e7 20.49%,#49b5d2 59.61%,#26e8a8 99.72%);
+
+  .bannier-overlay {
+    background-image: url("https://crocoblock.com/wp-content/uploads/2020/04/jetengin-banner.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+
+  .bannier-container {
+    max-width: 1180px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    padding: 10px;
+
+    .bannier-text {
+      width: 100%;
+      position: relative;
+      text-align: center;
+
+      h2 {
+        margin: 0 0 28px;
+        font-size: 40px;
+        line-height: 47px;
+        letter-spacing: -1px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+      }
+    }
+
+    .bannier-btn {
+      width: 100%;
+      position: relative;
+      text-align: center;
+
+      span {
+        padding: 12px 28px;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: #34d7a1;
+        background-clip: padding-box;
+        letter-spacing: 0;
+        color: white;
+        line-height: 26px;
+        font-weight: 700;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+        box-shadow: 0 10px 10px rgba(22,43,64,.12);
+      }
+    }
+  }
+}

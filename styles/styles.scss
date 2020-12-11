@@ -1,0 +1,44 @@
+@import "./navbar";
+@import "./subnavbar";
+@import "./homepage";
+@import "./feature";
+@import "./develop";
+@import "./widgets";
+@import "./listing";
+@import "./listing-grid";
+@import "./listing-map";
+@import "./listing-calendar";
+@import "./slide";
+@import "./bannier";
+@import "./formal";
+@import "./footer";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  font-family: "Roboto",sans-serif;
+  font-size: 1.125rem;
+  line-height: 30px;
+}
+@media screen and (max-width: 1000px) {
+  body {
+    display: none;
+  }
+}
+
+.liste-fdp-item:hover .products-sub-menu {
+  display: block;
+}
+
+.liste-fdp-item:hover .dynamic-sub-menu {
+  display: block;
+}
+
+.liste-fdp-item:hover .help-center-menu {
+  display: block;
+}

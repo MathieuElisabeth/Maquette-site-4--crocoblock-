@@ -1,0 +1,177 @@
+.homepage {
+  position: relative;
+  background: linear-gradient(158.96deg,#5b77e7 20.49%,#49b5d2 59.61%,#26e8a8 99.72%);
+
+  .home-container {
+    max-width: 1180px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    padding: 174px 0 110px;
+
+    .home-text {
+      width: 42.458%;
+      position: relative;
+      min-height: 1px;
+      display: flex;
+      flex-direction: column;
+      padding: 10px 10px 70px;
+      justify-content: center;
+
+      .home-text-titre {
+        width: 418px;
+        max-width: 418px;
+        margin-bottom: 0;
+      }
+
+      .home-text-description {
+        margin-bottom: 0;
+        width: 100%;
+        position: relative;
+        padding: 10px 12px 25px 0;
+
+        h1 {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 30px;
+          letter-spacing: 0;
+          margin: 0 0 15px;
+          color: white;
+        }
+      }
+
+      .btn-buy {
+        width: auto;
+        max-width: 100%;
+        position: relative;
+        padding: 12px 28px;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        background-color: #34d7a1;
+        background-clip: padding-box;
+        letter-spacing: 0;
+        line-height: 26px;
+        text-align: center;
+        text-transform: inherit;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+        transition: 0.07s;
+        text-decoration: none;
+        box-shadow: 0 10px 10px rgba(22,43,64,.12);
+
+        &:hover {
+          background-color: #162B40;
+        }
+      }
+
+      .btn-get {
+        width: auto;
+        max-width: 100%;
+        position: relative;
+        margin: 0 0 0 15px;
+        padding: 12px 28px;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        background-color: #617be5;
+        background-clip: padding-box;
+        letter-spacing: 0;
+        line-height: 26px;
+        text-align: center;
+        text-transform: inherit;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+        transition: 0.07s;
+        text-decoration: none;
+        box-shadow: 0 10px 10px rgba(22,43,64,.12);
+
+        &::after {
+          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='8' height='13' viewBox='0 0 8 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.125 12.5273L7.90234 6.75L2.125 0.972656L0.0976562 3L3.84766 6.75L0.0976562 10.5L2.125 12.5273Z' fill='white'/%3E%3C/svg%3E");
+          position: relative;
+          content: '';
+          display: inline-block;
+          vertical-align: middle;
+          top: -2px;
+          width: 16px;
+          height: 16px;
+          padding-left: 5px;
+          background-repeat: no-repeat;
+          background-position: center center;
+        }
+
+        &:hover {
+          background-color: #162B40;
+        }
+      }
+    }
+
+    .home-video {
+      width: 57.542%;
+      position: relative;
+      min-height: 1px;
+      display: flex;
+      padding: 10px;
+      flex-direction: column;
+
+      .video-play {
+        width: 100%;
+        margin-bottom: 0;
+
+        video {
+          max-width: 100%;
+          width: 100%;
+          margin: 0;
+          line-height: 1;
+          border: none;
+        }
+      }
+
+      .video-text {
+        width: 100%;
+        position: relative;
+        margin: 8px 0 0;
+        text-align: left;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+        color: white;
+
+        &::before {
+          content: '';
+          background-color: white;
+          opacity: 0.4;
+          display: block;
+          height: 1px;
+          left: 0;
+          position: absolute;
+          top: 100%;
+          width: 15%;
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          z-index: 1;
+          left: 0;
+          right: 100%;
+          bottom: -1px;
+          height: 1px;
+          transition-property: left right;
+          transition-duration: 0.3s;
+          transition-timing-function: ease-out;
+          background-color: white;
+        }
+
+        &:hover::after {
+          right: 85%;
+        }
+      }
+    }
+  }
+}

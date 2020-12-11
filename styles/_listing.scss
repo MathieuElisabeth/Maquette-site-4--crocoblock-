@@ -1,0 +1,44 @@
+.listing {
+  padding: 86px 0 26px;
+  position: relative;
+  max-width: 1180px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+
+  .listing-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    justify-content: center;
+
+    .listing-sous-titre {
+      width: 100%;
+      text-align: center;
+      position: relative;
+      margin: 0 0 11px;
+
+      p {
+        line-height: 1;
+        font-weight: 500;
+      }
+    }
+
+    .listing-titre {
+      width: 100%;
+      text-align: center;
+      position: relative;
+
+      p {
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 47px;
+        letter-spacing: -1px;
+        margin: 0 0 15px;
+      }
+    }
+  }
+}
